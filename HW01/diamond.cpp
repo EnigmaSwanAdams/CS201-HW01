@@ -34,7 +34,7 @@ int diamond() {
 }
 
 int create_diamond(int num) { //this function creates a diamond based on the integer passed to it
-    int i, j, k;              // this first outer loop handles the top half and widest point of the diamond
+    int i, j;              // this first outer loop handles the top half and widest point of the diamond
     int space = num - 1;
     for (i = 1; i <= num; i++) // i coresponds to the line number we are on
     {
