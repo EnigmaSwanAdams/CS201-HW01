@@ -9,11 +9,12 @@ on blackbuard
 **********************************************/
 
 #include <iostream>;
+#include"Header.h"
 using std::cout;
 using std::cin;
 using std::endl;
 
-int main() {
+int mileskm() {
 	int miles;
 	float km;
 
@@ -30,5 +31,5 @@ int main() {
 	cout << "your number in miles is " << miles << endl;
 	cout << "your number in km is " << km << endl;
 	
-	
+	return 0;
 }

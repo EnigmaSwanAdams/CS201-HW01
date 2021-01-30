@@ -11,6 +11,7 @@ on blackbuard
 **********************************************/
 
 #include <iostream>;
+#include"Header.h"
 using std::cout;
 using std::cin;
 using std::endl;
@@ -26,9 +27,9 @@ int diamond() {
                                                                                                  // we didn't know how to test user input for characteristics yet?
 		cout << "You entered " << n << endl;
 		create_diamond(n);
-	} while (n >= 0);
+	} while (n > 0);
 
-	cout << "you have quit. Have a nice day." << endl;
+    cout << "you have quit. Have a nice day. \n";
 
 	return 0;
 }

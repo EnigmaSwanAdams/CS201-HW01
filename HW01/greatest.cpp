@@ -11,6 +11,7 @@ on blackbuard
 **********************************************/
 
 #include <iostream>;
+#include"Header.h"
 using std::cout;
 using std::cin;
 using std::endl;
@@ -34,14 +35,14 @@ int greatest() {
 			cout << "That wasn't a postive number, try again" << endl;
 		}
 		else {
-			if (n >= maxNum) { maxNum = n; } //this determines the highest number by onyl storing the highest number its seen
+			if (n >= maxNum) { maxNum = n; } //this determines the highest number by only storing the highest number its seen
 		}
 	}
 	if (maxNum == 0) { 
-		cout << "\nNo positve integers were entered"; // if the user only inputs 0 it will exit the loop to here and let them know nothing was enetered
+		cout << "\nNo positve integers were entered" << endl; // if the user only inputs 0 it will exit the loop to here and let them know nothing was enetered
 	}
 	else {
-		cout << "\nThe greatest number entered: " << maxNum;
+		cout << "\nThe greatest number entered: " << maxNum << endl;
 	}
 
 	return 0;

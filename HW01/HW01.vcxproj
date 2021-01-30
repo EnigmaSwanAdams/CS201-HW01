@@ -142,6 +142,10 @@
     <ClCompile Include="diamond.cpp" />
     <ClCompile Include="greatest.cpp" />
     <ClCompile Include="mileskm.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
