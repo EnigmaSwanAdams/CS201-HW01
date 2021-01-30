@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HW01_code.cpp">
+    <ClCompile Include="diamond.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="greatest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
