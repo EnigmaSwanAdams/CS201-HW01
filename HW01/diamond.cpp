@@ -20,6 +20,8 @@ int create_diamond(int); //declaration of the function that makes the diamond
 
 int diamond() {
 	int n;
+
+
 	do { 
 		cout << "enter a positive integer, and I'll print a coresponding \n" //user prompt, it will keep asking and making diamonds until the user enters the comaand to quit (0 or a negative number)
 			"diamond made of pound signs, or if you want to quit input 0 or a negative number "; // you say in the homework to use
@@ -37,6 +39,8 @@ int diamond() {
 int create_diamond(int num) { //this function creates a diamond based on the integer passed to it
     int i, j;              // this first outer loop handles the top half and widest point of the diamond
     int space = num - 1;
+
+
     for (i = 1; i <= num; i++) // i coresponds to the line number we are on
     {
         for (j = 1; j <= space; j++)
@@ -57,5 +61,6 @@ int create_diamond(int num) { //this function creates a diamond based on the int
         cout << endl;
     }
     cout << endl;
+
 	return 0;
 }

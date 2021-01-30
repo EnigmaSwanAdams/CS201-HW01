@@ -25,17 +25,19 @@ int greatest() {
 
 	cout << "Enter a sequence of postive integers, ending in zero. \n" // intial user prompt
 		"I will printt he greatest psotive number entered." << endl;
-	while (true) { //using a while(true) loop to keep going unless the user inputs 0
+
+
+	while (true) {	// using a while(true) loop to keep going unless the user inputs 0
 		cout << "Enter a postive integer (0 to end): ";
 		cin >> n ;
 		if (n == 0) {
-			break; // only breaks if the user enters 0
+			break;	// only breaks if the user enters 0
 		}
 		else if (n < 0) {
 			cout << "That wasn't a postive number, try again" << endl;
 		}
 		else {
-			if (n >= maxNum) { maxNum = n; } //this determines the highest number by only storing the highest number its seen
+			if (n >= maxNum) { maxNum = n; } // this determines the highest number by only storing the highest number its seen
 		}
 	}
 	if (maxNum == 0) { 
