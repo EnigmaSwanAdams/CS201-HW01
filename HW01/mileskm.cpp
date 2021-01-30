@@ -2,6 +2,7 @@
 Enigma Swan Adams
 CS 201 Homework 01 additional program 4
 1/27/2020
+CS 201 Homework 01 additional program 4
 
 this program converts from miles to kilometers
 further description of behavior can be found
@@ -18,7 +19,7 @@ int mileskm() {
 	int miles;
 	float km;
 
-	cout << "enter a numeber in miles, and I'll convert it to kilometers \n"
+	cout << "enter a numeber in miles, and I'll convert it to kilometers \n" 
 		"if you type a negative number I'll just assume you meant for it to be positive ";
 	cin >> miles;
 
