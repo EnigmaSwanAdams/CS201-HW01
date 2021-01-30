@@ -17,7 +17,7 @@ using std::endl;
 
 int create_diamond(int); //declaration of the function that makes the diamond
 
-int main() {
+int diamond() {
 	int n;
 	do { 
 		cout << "enter a positive integer, and I'll print a coresponding \n" //user prompt, it will keep asking and making diamonds until the user enters the comaand to quit (0 or a negative number)
@@ -56,7 +56,5 @@ int create_diamond(int num) { //this function creates a diamond based on the int
         cout << endl;
     }
     cout << endl;
-
-
 	return 0;
 }
